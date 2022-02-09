@@ -27,7 +27,7 @@ class Var(object):
     FQDN = str(getenv('FQDN', BIND_ADRESS)) if not ON_HEROKU or getenv('FQDN') else APP_NAME+'.herokuapp.com'
     URL = "https://{}/".format(FQDN) if ON_HEROKU or NO_PORT else \
         "http://{}:{}/".format(FQDN, PORT)
-    DATABASE_URL = "postgres://gqjstlvgoamzxw:205b4066b94c8afcb9fb167edc710ef26bb2ac152c7614f62a8f181decf5003a@ec2-44-194-113-156.compute-1.amazonaws.com:5432/ddhqlg35vi66ik"
+    DATABASE_URL = "mongodb+srv://mjwatermark:Manya@007@cluster0.ahbvh.mongodb.net/sample?retryWrites=true&w=majority"
     PING_INTERVAL = int(getenv('PING_INTERVAL', '500'))
     UPDATES_CHANNEL = "mjfileupload"
     BANNED_CHANNELS = list(set(int(x) for x in str(getenv("BANNED_CHANNELS", "-1001296894100")).split()))
