@@ -31,8 +31,8 @@ ABOUT_TEXT = """
 <b>🔸Vᴇʀꜱɪᴏɴ : <a href='https://telegram.me/ManyaDon007'>3.0.1</a></b>\n
 <b>🔹Sᴏᴜʀᴄᴇ : <a href='https://github.com/ManishJadhav100/FileStreamBot-1'>Cʟɪᴄᴋ Hᴇʀᴇ</a></b>\n
 <b>🔸GitHub : <a href='https://GitHub.com/ManishJadhav100'>Fᴏʟʟᴏᴡ</a></b>\n
-<b>🔹Dᴇᴠᴇʟᴏᴘᴇʀ : <a href='https://telegram.me/ManishJadhav100'>Manish Jadhav</a></b>\n
-<b>🔸Lᴀꜱᴛ ᴜᴘᴅᴀᴛᴇᴅ : <a href='https://telegram.me/ManishJadhav100'>[ 09-FEB-22 ] 04:35 PM</a></b>"""
+<b>🔹Dᴇᴠᴇʟᴏᴘᴇʀ : <a href='https://telegram.me/ManyaDon007'>Manish Jadhav</a></b>\n
+<b>🔸Lᴀꜱᴛ ᴜᴘᴅᴀᴛᴇᴅ : <a href='https://telegram.me/ManyaDon007'>[ 09-FEB-22 ] 04:35 PM</a></b>"""
 
 START_BUTTONS = InlineKeyboardMarkup(
         [[
