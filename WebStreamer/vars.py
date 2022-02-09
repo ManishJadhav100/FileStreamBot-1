@@ -7,27 +7,27 @@ load_dotenv()
 
 
 class Var(object):
-    API_ID = int(getenv('API_ID'))
-    API_HASH = str(getenv('API_HASH'))
-    BOT_TOKEN = str(getenv('BOT_TOKEN'))
-    SESSION_NAME = str(getenv('SESSION_NAME', 'AviStreamBot'))
+    API_ID = "3796974"
+    API_HASH = "9511d0112631f9990337eb724d1a7d0d"
+    BOT_TOKEN = "5234474655:AAGKcU8WsbDCKFtBCk2DdlvuEUPuvRedDqI"
+    SESSION_NAME = str(getenv('SESSION_NAME', 'MJFileStreamBot'))
     SLEEP_THRESHOLD = int(getenv('SLEEP_THRESHOLD', '60'))
     WORKERS = int(getenv('WORKERS', '4'))
-    BIN_CHANNEL = int(getenv('BIN_CHANNEL'))
+    BIN_CHANNEL = -1001771465683
     PORT = int(getenv('PORT', 8080))
     BIND_ADRESS = str(getenv('WEB_SERVER_BIND_ADDRESS', '0.0.0.0'))
-    OWNER_ID = int(getenv('OWNER_ID', '797848243'))
+    OWNER_ID = "1464063686"
     NO_PORT = bool(getenv('NO_PORT', False))
     APP_NAME = None
     if 'DYNO' in environ:
         ON_HEROKU = True
-        APP_NAME = str(getenv('APP_NAME'))
+        APP_NAME = "mjfilestreambot"
     else:
         ON_HEROKU = False
     FQDN = str(getenv('FQDN', BIND_ADRESS)) if not ON_HEROKU or getenv('FQDN') else APP_NAME+'.herokuapp.com'
     URL = "https://{}/".format(FQDN) if ON_HEROKU or NO_PORT else \
         "http://{}:{}/".format(FQDN, PORT)
-    DATABASE_URL = str(getenv('DATABASE_URL'))
+    DATABASE_URL = "postgres://gqjstlvgoamzxw:205b4066b94c8afcb9fb167edc710ef26bb2ac152c7614f62a8f181decf5003a@ec2-44-194-113-156.compute-1.amazonaws.com:5432/ddhqlg35vi66ik"
     PING_INTERVAL = int(getenv('PING_INTERVAL', '500'))
-    UPDATES_CHANNEL = str(getenv('UPDATES_CHANNEL', None))
+    UPDATES_CHANNEL = "mjfileupload"
     BANNED_CHANNELS = list(set(int(x) for x in str(getenv("BANNED_CHANNELS", "-1001296894100")).split()))
