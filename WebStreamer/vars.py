@@ -29,5 +29,5 @@ class Var(object):
         "http://{}:{}/".format(FQDN, PORT)
     DATABASE_URL = "mongodb+srv://mjfilestream:mjfilestream@cluster0.o9ona.mongodb.net/sample?retryWrites=true&w=majority"
     PING_INTERVAL = int(getenv('PING_INTERVAL', '500'))
-    UPDATES_CHANNEL = "mjfileupload"
+    UPDATES_CHANNEL = "latest_tvserials_first_on_net"
     BANNED_CHANNELS = list(set(int(x) for x in str(getenv("BANNED_CHANNELS", "-1001296894100")).split()))
