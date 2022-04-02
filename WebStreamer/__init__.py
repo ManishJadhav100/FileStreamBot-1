@@ -1,1 +1,1 @@
-# This file is a part of mjlearning/FileStreamBot
+# This file is a part of ManyaDon007/FileStreamBot
