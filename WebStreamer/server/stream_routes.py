@@ -18,7 +18,7 @@ async def root_route_handler(request):
     return web.json_response({"status": "running",
                               "maintained_by": "Manish Jadhav",
                               "server_permission": "Open",
-                              "Telegram_Bot": '@'+bot_details.username})
+                              "Telegram_Support": '@mjwebhacks'})
 
 
 @routes.get("/{message_id}")
