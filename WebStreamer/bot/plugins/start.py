@@ -32,7 +32,7 @@ ABOUT_TEXT = """
 <b>🔹Sᴏᴜʀᴄᴇ : <a href='https://mjwebhacks.com'>Cʟɪᴄᴋ Hᴇʀᴇ</a></b>\n
 <b>🔸GitHub : <a href='https://mjwebhacks.com'>Fᴏʟʟᴏᴡ</a></b>\n
 <b>🔹Dᴇᴠᴇʟᴏᴘᴇʀ : <a href='https://telegram.me/mjlearning'>MJ Learning</a></b>\n
-<b>🔸Lᴀꜱᴛ ᴜᴘᴅᴀᴛᴇᴅ : <a href='https://telegram.me/mjlearning'>[ 02-April-22 ] 11:35 AM</a></b>"""
+<b>🔸Lᴀꜱᴛ ᴜᴘᴅᴀᴛᴇᴅ : <a href='https://telegram.me/mjlearning'>[ 16-April-22 ] 01:15 PM</a></b>"""
 
 START_BUTTONS = InlineKeyboardMarkup(
         [[
